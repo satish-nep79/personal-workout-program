@@ -1,9 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #2b2b2b;
-    /* Dark background */
-    color: #fff;
-    /* Light text color */
+    background-color: #2b2b2b; /* Dark background */
+    color: #fff; /* Light text color */
     margin: 0;
     padding: 0;
 }
@@ -21,15 +19,13 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    background: #1e1e1e;
-    /* Dark color for consistency */
+    background: #1e1e1e; /* Dark color for consistency */
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     z-index: 1000;
-    color: #fff;
-    /* Light text color */
+    color: #fff; /* Light text color */
 }
 
 .nav-drawer {
@@ -37,12 +33,11 @@ body {
     top: 0;
     left: -250px;
     width: 250px;
-    background: #1e1e1e;
-    /* Dark background */
+    background: #1e1e1e; /* Dark background */
     height: 100%;
     transition: left 0.3s;
     z-index: 999;
-    padding-top: 60px;
+    padding-top: 60px; /* Adjust for icon button overlap */
 }
 
 .nav-drawer ul {
@@ -59,8 +54,7 @@ body {
 }
 
 .nav-drawer ul li a {
-    color: #fff;
-    /* Light text color */
+    color: #fff; /* Light text color */
     text-decoration: none;
     font-size: 20px;
 }
@@ -109,28 +103,23 @@ body {
 .program-list h2 {
     margin-top: 0;
     font-size: 36px;
-    color: #fff;
-    /* Light text color for headings */
+    color: #fff; /* Light text color for headings */
     text-align: center;
     text-transform: uppercase;
 }
 
-/* Ensure items are displayed in a grid */
 .week ul {
     list-style-type: none;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    /* Spacing between grid items */
+    gap: 20px; /* Spacing between grid items */
     margin-bottom: 20px;
 }
 
 .program {
-    background: #383838;
-    /* Slightly lighter shade to stand out */
-    color: #fff;
-    /* Light text color */
+    background: #383838; /* Slightly lighter shade to stand out */
+    color: #fff; /* Light text color */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -146,8 +135,7 @@ body {
 .program h3 {
     margin: 0 0 10px;
     font-size: 24px;
-    color: #fff;
-    /* Light text color */
+    color: #fff; /* Light text color */
     text-transform: uppercase;
 }
 
@@ -160,12 +148,10 @@ body {
 .thumbnail {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    /* Adding rounded corners */
+    border-radius: 10px; /* Adding rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    margin-top: 10px;
-    /* Adding some space above thumbnails */
+    margin-top: 10px; /* Adding some space above thumbnails */
 }
 
 .overlay {
@@ -174,22 +160,29 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.05);
-    /* 5% opacity overlay to match dark theme */
+    background: rgba(0, 0, 0, 0.05); /* 5% opacity overlay to match dark theme */
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    /* Matching rounded corners for overlay */
+    border-radius: 10px; /* Matching rounded corners for overlay */
 }
 
 .play-button {
     width: 50px;
     height: 50px;
-    background: url('play-button-icon.png') no-repeat center;
+    background: url(assets/play.png) no-repeat center;
     background-size: contain;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.rest-image {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Ensuring image scales properly */
 }

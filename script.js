@@ -40,21 +40,26 @@ document.addEventListener('DOMContentLoaded', () => {
             week.forEach(day => {
                 const dayLi = document.createElement("li");
                 dayLi.classList.add("day");
-                let dayContent = `<h4>Day ${day.day}</h4><ul class="day-thumbnails">`;
-                day.workouts_ids.forEach(workout_id => {
-                    const workoutDetails = getWorkoutDetails(workout_id, workoutData);
-                    dayContent += `
-                        <li>
+                if (day.type === "rest") {
+                    dayLi.innerHTML = `<h4>Day ${day.day}</h4>
+                                       <p>Rest Day</p>
+                                       <img src="assets/rest.jpg" alt="Rest Day Image" class="thumbnail">`;
+                } else {
+                    let dayContent = `<h4>Day ${day.day}</h4>
+                                      <ul class="day-thumbnails">`;
+                    day.workouts_ids.forEach(workout_id => {
+                        const workoutDetails = getWorkoutDetails(workout_id, workoutData);
+                        dayContent += `<li>
                             <a href="${workoutDetails.video_url}" target="_blank" class="thumbnail-container">
                                 <img src="https://img.youtube.com/vi/${workoutDetails.video_id}/mqdefault.jpg" alt="${workoutDetails.title} thumbnail" class="thumbnail">
                                 <div class="overlay">
                                     <div class="play-button"></div>
                                 </div>
-                            </a>
-                        </li>`;
-                });
-                dayContent += `</ul>`;
-                dayLi.innerHTML = dayContent;
+                            </a></li>`;
+                    });
+                    dayContent += `</ul>`;
+                    dayLi.innerHTML = dayContent;
+                }
                 weekUl.appendChild(dayLi);
             });
             weekDiv.appendChild(weekUl);
