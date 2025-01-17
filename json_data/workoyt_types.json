@@ -1,0 +1,20 @@
+{
+  "workout_types": [
+    {
+      "workout_type_id": "workout_type_1",
+      "workout_type": "Chest"
+    },
+    {
+      "workout_type_id": "workout_type_2",
+      "workout_type": "Back"
+    },
+    {
+      "workout_type_id": "workout_type_3",
+      "workout_type": "Arms"
+    },
+    {
+      "workout_type_id": "workout_type_4",
+      "workout_type": "Legs"
+    }
+  ]
+}

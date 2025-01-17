@@ -1,0 +1,21 @@
+{
+    "equipment": [
+      {
+        "equipment_id": "equipment_1",
+        "equipment_name": "Dumbbells"
+      },
+      {
+        "equipment_id": "equipment_2",
+        "equipment_name": "Yoga Mat"
+      },
+      {
+        "equipment_id": "equipment_3",
+        "equipment_name": "Bench"
+      },
+      {
+        "equipment_id": "equipment_4",
+        "equipment_name": "None"
+      }
+    ]
+  }
+  

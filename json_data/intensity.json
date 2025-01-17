@@ -1,0 +1,17 @@
+{
+    "intensity_levels": [
+      {
+        "intensity_level_id": "intensity_1",
+        "intensity_level": "Beginner"
+      },
+      {
+        "intensity_level_id": "intensity_2",
+        "intensity_level": "Intermediate"
+      },
+      {
+        "intensity_level_id": "intensity_3",
+        "intensity_level": "Advanced"
+      }
+    ]
+  }
+  
