@@ -43,6 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const dayLi = document.createElement("li");
         dayLi.classList.add("day");
         dayLi.onclick = () => {
+          if (day.type === "rest") {
+            alert(
+              "Today is your rest day! Take some time to relax and recharge."
+            );
+            return;
+          }
           window.location.href = `day_workout.html?day=${day.day}`;
         };
         if (day.type === "rest") {
