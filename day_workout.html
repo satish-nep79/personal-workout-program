@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="back-button">
+        <a href="index.html" aria-label="Go back">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </a>
+      </div>
+
+      <div id="nav-placeholder"></div>
+      
+    <section class="day-details">
+        <div class="container">
+            <h1 id="day-title">Day Details</h1>
+            <div class="details">
+                <h2>Workout Summary</h2>
+                <p id="intensity-level"></p>
+                <p id="workout-type"></p>
+            </div>
+            
+            <div class="equipment">
+                <h2>Equipment</h2>
+                <ul id="equipment-list"></ul>
+            </div>
+            <div class="warm-up">
+                <h2>Warm-up</h2>
+                <div id="warm-up-video" class="video-container"></div>
+            </div>
+            <div class="workouts">
+                <h2>Workouts</h2>
+                <div id="workouts-videos" class="video-container"></div>
+            </div>
+        </div>
+    </section>
+    <script src="nav-drawer.js" defer></script>
+    <script src="day-script.js" defer></script>
+</body>
+</html>

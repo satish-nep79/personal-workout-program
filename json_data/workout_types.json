@@ -1,0 +1,40 @@
+{
+  "workout_types": [
+    {
+      "workout_type_id": "workout_type_1",
+      "workout_type": "Chest"
+    },
+    {
+      "workout_type_id": "workout_type_2",
+      "workout_type": "Back"
+    },
+    {
+      "workout_type_id": "workout_type_3",
+      "workout_type": "Arms"
+    },
+    {
+      "workout_type_id": "workout_type_4",
+      "workout_type": "Legs"
+    },
+    {
+      "workout_type_id": "workout_type_5",
+      "workout_type": "Core"
+    },
+    {
+      "workout_type_id": "workout_type_6",
+      "workout_type": "Upper Body"
+    },
+    {
+      "workout_type_id": "workout_type_7",
+      "workout_type": "Shoulders"
+    },
+    {
+      "workout_type_id": "workout_type_8",
+      "workout_type": "HIIT"
+    },
+    {
+      "workout_type_id": "workout_type_9",
+      "workout_type": "Warm Up"
+    }
+  ]
+}

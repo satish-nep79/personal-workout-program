@@ -14,18 +14,19 @@ body {
     padding: 20px;
 }
 
+/* Styles for the hamburger icon and nav-drawer */
 .hamburger-icon {
     font-size: 30px;
-    position: fixed;
-    top: 20px;
-    right: 20px;
     background: #1e1e1e; /* Dark color for consistency */
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    z-index: 1000;
     color: #fff; /* Light text color */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
 .nav-drawer {
@@ -58,6 +59,18 @@ body {
     text-decoration: none;
     font-size: 20px;
 }
+
+#nav-drawer-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: none;
+    transition: display 0.3s;
+}
+
+
 
 .showcase {
     position: relative;
@@ -116,6 +129,20 @@ body {
     gap: 20px; /* Spacing between grid items */
     margin-bottom: 20px;
 }
+
+.day {
+    background-color: #3a3a3a; /* Add background color */
+    padding: 15px; /* Add padding for spacing inside the card */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+}
+
+.day:hover {
+    transform: translateY(-5px); /* Slight hover lift */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
 
 .program {
     background: #383838; /* Slightly lighter shade to stand out */
@@ -185,4 +212,69 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     object-fit: cover; /* Ensuring image scales properly */
+}
+
+.back-button {
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .back-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    color: white;
+    border-radius: 50%; /* Circular shape */
+    text-decoration: none;
+    transition:0.3s ease;
+  }
+  
+  .back-button a:hover {
+    background: #444;
+  }
+  
+  .back-button svg {
+    width: 20px;
+    height: 20px;
+    stroke: white; /* Matches button color */
+  }
+  
+  
+
+.day-details h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.warm-up, .workouts {
+    margin-bottom: 30px;
+}
+
+.warm-up h2, .workouts h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-container img {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.video-container img:hover {
+    transform: scale(1.05);
 }

@@ -9,8 +9,7 @@
             "workout_type_id": "workout_type_1",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Join Chris Heria as he takes you through the best home chest workout using just your body weight!"
         },
@@ -23,8 +22,7 @@
             "workout_type_id": "workout_type_1",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Join Chris Heria as he does THIS Chest Workout From Home."
         },
@@ -34,11 +32,10 @@
             "creator_id": "c1",
             "duration": "10:29",
             "video_url": "https://youtu.be/z8_fSUc7MTw?si=U8FiKd1NPBr45IzM",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_3",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Join Chris Heria as he shows you the best Home Tricep Workout."
         },
@@ -48,11 +45,10 @@
             "creator_id": "c2",
             "duration": "12:18",
             "video_url": "https://youtu.be/DrUEFnF5kG4?si=D7tlmHMHD8c-LeX0",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_6",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Learn From Chris Heria the Most Effective CHEST + SHOULDER + TRICEP Workout NO EQUIPMENT NEEDED."
         },
@@ -62,11 +58,10 @@
             "creator_id": "c2",
             "duration": "10:02",
             "video_url": "https://youtu.be/ClzTDsQDC0E?si=4idglSzrXlvdoXmP",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_2",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_1"
             ],
             "description": "Follow Along With Chris Heria as he does a Quick And Effective Home Back Workout."
         },
@@ -76,11 +71,10 @@
             "creator_id": "c1",
             "duration": "13:39",
             "video_url": "https://youtu.be/XgI_p8bKg78?si=0I5R-Q58dySeQC7_",
-            "workout_type_id": "workout_type_1",
-            "intensity_level_id": "intensity_2",
+            "workout_type_id": "workout_type_5",
+            "intensity_level_id": "intensity_3",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Follow along with Chris Heria as he does a Complete 20 Min Abs Workout."
         },
@@ -90,11 +84,10 @@
             "creator_id": "c1",
             "duration": "13:55",
             "video_url": "https://youtu.be/ifQgmbr18kk?si=o0nPFaAa84DLeQRg",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_2",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_1"
             ],
             "description": ""
         },
@@ -104,11 +97,10 @@
             "creator_id": "c3",
             "duration": "10:02",
             "video_url": "https://youtu.be/wwKb-wZCEjs?si=Ye7eIs49T6m9NNO_",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_3",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Build Big ARMS in 8 Minutes (AT HOME, NO EQUIPMENT)"
         },
@@ -118,11 +110,10 @@
             "creator_id": "c3",
             "duration": "6:15",
             "video_url": "https://youtu.be/OA2sx4IudYs?si=98LHdtieOMBn59cv",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_7",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": ""
         },
@@ -132,11 +123,10 @@
             "creator_id": "c1",
             "duration": "6:15",
             "video_url": "https://youtu.be/EhY6cGS7F-c?si=EWstF2BtFQdYlWfg",
-            "workout_type_id": "workout_type_1",
-            "intensity_level_id": "intensity_2",
+            "workout_type_id": "workout_type_8",
+            "intensity_level_id": "intensity_3",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Follow along Chris Heria with this 12 Min Fat Burning Workout."
         },
@@ -146,11 +136,10 @@
             "creator_id": "c1",
             "duration": "14:12",
             "video_url": "https://youtu.be/9aT-GUy81wg?si=1u4aAvVOP0gh0EXg",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_7",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Follow along with Chris Heria as he shows you how to Replace Your SHOULDER Day At The Gym With This HOME WORKOUT."
         },
@@ -160,11 +149,10 @@
             "creator_id": "c3",
             "duration": "5:44",
             "video_url": "https://youtu.be/SOvsUhLCdys?si=MhK1juqXOz2odMaS",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_2",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Hi guys! This is 5 MIN PERFECT BACK Workout (AT HOME. NO EQUIPMENT) Let’s work!!"
         },
@@ -174,11 +162,10 @@
             "creator_id": "c3",
             "duration": "10:27",
             "video_url": "https://youtu.be/fKDKrK5njI8?si=odmz0VLReuJQnZPe",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_3",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Ready to sculpt those dream arms in just 30 days?"
         },
@@ -188,11 +175,10 @@
             "creator_id": "c3",
             "duration": "8:18",
             "video_url": "https://youtu.be/UKM_3T2-Huc?si=8lMYm61Sdl6FApTb",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_4",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": ""
         },
@@ -202,11 +188,10 @@
             "creator_id": "c3",
             "duration": "8:06",
             "video_url": "https://youtu.be/841gJUczmzg?si=TD71g47lkCfwM6L6",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_4",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Get Strong Legs in 7 MIN Killer HOME LEG WORKOUT NO EQUIPMENT"
         },
@@ -216,11 +201,10 @@
             "creator_id": "c1",
             "duration": "23:24",
             "video_url": "https://youtu.be/q7rCeOa_m58?si=WEGm-rHeR2VhbjlL",
-            "workout_type_id": "workout_type_1",
+            "workout_type_id": "workout_type_4",
             "intensity_level_id": "intensity_2",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Follow along with Chris Heria for this 20 Min Complete Home Leg Workout."
         },
@@ -230,11 +214,10 @@
             "creator_id": "c1",
             "duration": "11:01",
             "video_url": "https://youtu.be/wvdugigsM6I?si=0Lc7HuYc5EN8Wzdg",
-            "workout_type_id": "workout_type_1",
-            "intensity_level_id": "intensity_2",
+            "workout_type_id": "workout_type_9",
+            "intensity_level_id": "intensity_1",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Join Chris Heria as he shows you a Warm Up to do Before Every Workout."
         },
@@ -244,11 +227,10 @@
             "creator_id": "c3",
             "duration": "5:13",
             "video_url": "https://youtu.be/ZO2ZwicxCEs?si=lcZUkPA5aCuLpljx",
-            "workout_type_id": "workout_type_1",
-            "intensity_level_id": "intensity_2",
+            "workout_type_id": "workout_type_9",
+            "intensity_level_id": "intensity_1",
             "equipment_needed_ids": [
-                "equipment_1",
-                "equipment_2"
+                "equipment_4"
             ],
             "description": "Do This Before Every Workout (Best Warm Up Routine)"
         }
