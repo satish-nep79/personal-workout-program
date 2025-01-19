@@ -53,12 +53,12 @@ document.addEventListener("DOMContentLoaded", () => {
           day.workouts_ids.forEach((workout_id) => {
             const workoutDetails = getWorkoutDetails(workout_id, workoutData);
             dayContent += `<li>
-                            <a href="${workoutDetails.video_url}" target="_blank" class="thumbnail-container">
+                            <div class="thumbnail-container">
                                 <img src="https://img.youtube.com/vi/${workoutDetails.video_id}/mqdefault.jpg" alt="${workoutDetails.title} thumbnail" class="thumbnail">
                                 <div class="overlay">
                                     <div class="play-button"></div>
                                 </div>
-                            </a></li>`;
+                            </div></li>`;
           });
           dayContent += `</ul>`;
           dayLi.innerHTML = dayContent;
